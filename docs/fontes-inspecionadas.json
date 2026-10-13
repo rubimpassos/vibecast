@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "inspectedAt": "2026-10-13",
+  "repositories": [
+    {
+      "repository": "Vendicated/Vencord",
+      "ref": "main",
+      "commit": "16ec4ea838899706019e7f472e45f055070abeb1",
+      "packageVersion": "1.15.11",
+      "files": [
+        "LICENSE",
+        "package.json",
+        "src/utils/types.ts",
+        "src/webpack/webpack.ts",
+        "src/webpack/common/stores.ts",
+        "packages/discord-types/src/stores/ApplicationStreamingStore.d.ts",
+        "packages/discord-types/src/stores/ApplicationStreamPreviewStore.d.ts",
+        "src/plugins/biggerStreamPreview/index.tsx",
+        "src/plugins/streamerModeOnStream/index.ts",
+        "src/plugins/webScreenShare.browser/index.tsx",
+        "src/plugins/voiceMessages/native.ts"
+      ]
+    },
+    {
+      "repository": "Nonary/vibeshine",
+      "ref": "2.0.0",
+      "commit": "0689b2e021d6106612a7ed72a34dacc714b7a133",
+      "files": [
+        "LICENSE",
+        "architecture.md",
+        "cmake/prep/options.cmake",
+        "cmake/dependencies/webrtc.cmake",
+        ".github/workflows/ci-windows.yml",
+        "third-party/webrtc-artifacts/windows-x64.json",
+        "src/webrtc_stream.h",
+        "src/webrtc_stream.cpp",
+        "src/confighttp.cpp",
+        "src/http_auth.cpp",
+        "src/input.cpp",
+        "src/config.cpp",
+        "src/platform/windows/audio.cpp",
+        "src_assets/common/assets/web-legacy/services/webrtcApi.ts",
+        "src_assets/common/assets/web-legacy/utils/webrtc/client.ts",
+        "src_assets/common/assets/web-legacy/types/webrtc.ts"
+      ]
+    }
+  ],
+  "windowsRelease": {
+    "tag": "2.0.0",
+    "asset": "VibeshineSetup-v2.0.0.exe",
+    "sha256": "e6fd30eaf95abc24c85e431e9b6c84b2db84658c625c78f5bd84dc3665f728c5",
+    "installedBuildVerified": false
+  },
+  "scope": "Source inspection only; installed Windows clients and live media not verified."
+}
